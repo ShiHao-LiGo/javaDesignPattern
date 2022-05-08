@@ -2,23 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1179e90-0f1a-4626-a027-b89332301dd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/工厂模式/日志记录器/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/工厂模式/日志记录器/DatabaseLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/工厂模式/日志记录器/DatabaseLoggerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/工厂模式/日志记录器/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/工厂模式/日志记录器/FileLoggerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/工厂模式/日志记录器/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/工厂模式/日志记录器/LoggerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/简单工厂模式/开发图表库/Chart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/简单工厂模式/开发图表库/ChartFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/简单工厂模式/开发图表库/Histogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/简单工厂模式/开发图表库/LineChart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/简单工厂模式/开发图表库/PieChart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/简单工厂模式/开发图表库/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/简单工厂模式/简介.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/抽象工厂模式/界面皮肤库/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/抽象工厂模式/界面皮肤库/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/抽象工厂模式/界面皮肤库/ComboBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/抽象工厂模式/界面皮肤库/SkinFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/抽象工厂模式/界面皮肤库/SpringButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/抽象工厂模式/界面皮肤库/SpringComboBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/抽象工厂模式/界面皮肤库/SpringSkinFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/抽象工厂模式/界面皮肤库/SpringTextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/抽象工厂模式/界面皮肤库/SummerButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/抽象工厂模式/界面皮肤库/SummerComboBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/抽象工厂模式/界面皮肤库/SummerSkinFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/抽象工厂模式/界面皮肤库/SummerTextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/抽象工厂模式/界面皮肤库/TextField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/工厂模式/工厂模式.iml" beforeDir="false" afterPath="$PROJECT_DIR$/工厂模式/工厂模式.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/简单工厂模式/简单工厂模式.iml" beforeDir="false" afterPath="$PROJECT_DIR$/简单工厂模式/简单工厂模式.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/抽象工厂模式/抽象工厂模式.iml" beforeDir="false" afterPath="$PROJECT_DIR$/抽象工厂模式/抽象工厂模式.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +107,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="抽象工厂模式" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="工厂模式" />
@@ -189,6 +194,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.client" />
       </list>
@@ -207,6 +213,7 @@
       <workItem from="1651332988397" duration="846000" />
       <workItem from="1651819638187" duration="1885000" />
       <workItem from="1651839825222" duration="2082000" />
+      <workItem from="1651992082535" duration="2058000" />
     </task>
     <servers />
   </component>
@@ -214,30 +221,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="70" key="#Project_Structure" timestamp="1651333838674">
+    <state x="361" y="70" key="#Project_Structure" timestamp="1651992898434">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="70" key="#Project_Structure/0.0.1536.816@0.0.1536.816" timestamp="1651333838674" />
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1651841050585">
+    <state x="361" y="70" key="#Project_Structure/0.0.1536.816@0.0.1536.816" timestamp="1651992898434" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1651993775260">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1651841050585" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1651841907857">
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1651993775260" />
+    <state width="1493" height="215" key="GridCell.Tab.0.bottom" timestamp="1651994162692">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1651841907857" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1651841907857">
+    <state width="1493" height="215" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1651994162692" />
+    <state width="1493" height="215" key="GridCell.Tab.0.center" timestamp="1651994162692">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1651841907857" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1651841907857">
+    <state width="1493" height="215" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1651994162692" />
+    <state width="1493" height="215" key="GridCell.Tab.0.left" timestamp="1651994162692">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1651841907857" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1651841907857">
+    <state width="1493" height="215" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1651994162692" />
+    <state width="1493" height="215" key="GridCell.Tab.0.right" timestamp="1651994162692">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1651841907857" />
+    <state width="1493" height="215" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1651994162692" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1651333106004">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
