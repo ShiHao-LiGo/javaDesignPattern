@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1179e90-0f1a-4626-a027-b89332301dd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/代理模式/OA系统访问（动态代理）/AbstractDocumentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代理模式/OA系统访问（动态代理）/AbstractUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代理模式/OA系统访问（动态代理）/Client_one.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代理模式/OA系统访问（动态代理）/DAOLogHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代理模式/OA系统访问（动态代理）/DocumentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代理模式/OA系统访问（动态代理）/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代理模式/商务信息查询系统/AccessValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代理模式/商务信息查询系统/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代理模式/商务信息查询系统/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代理模式/商务信息查询系统/ProxySearcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代理模式/商务信息查询系统/RealSearcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代理模式/商务信息查询系统/Searcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/策略模式/影院售票系统/ChildrenDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/策略模式/影院售票系统/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/策略模式/影院售票系统/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/策略模式/影院售票系统/MovieTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/策略模式/影院售票系统/StudentDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/策略模式/影院售票系统/VIPDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/观察者模式/多人联机对战游戏/AllyControlCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/观察者模式/多人联机对战游戏/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/观察者模式/多人联机对战游戏/ConcreteAllyControlCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/观察者模式/多人联机对战游戏/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/观察者模式/多人联机对战游戏/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/单例模式/单例模式.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/单例模式/懒汉式单例模式/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/单例模式/负载均衡器/Loadbalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/单例模式/负载均衡器/client_one.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/单例模式/饿汉式单例模式/EagerSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -109,6 +91,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -117,14 +100,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.Client_one">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client" />
-      <module name="抽象工厂模式" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.client_one">
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="策略模式" />
@@ -149,6 +125,13 @@
     <configuration name="Client_one" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client_one" />
       <module name="代理模式" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client_one" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client_one" />
+      <module name="单例模式" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.client_one" />
         <item itemvalue="Application.Client_one" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -246,6 +229,7 @@
       <workItem from="1652252746731" duration="296000" />
       <workItem from="1652253210819" duration="1178000" />
       <workItem from="1652254448086" duration="4071000" />
+      <workItem from="1652294977019" duration="1890000" />
     </task>
     <servers />
   </component>
@@ -261,34 +245,34 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1652257438054" />
-    <state width="1493" height="66" key="GridCell.Tab.0.bottom" timestamp="1652258551071">
+    <state width="1493" height="424" key="GridCell.Tab.0.bottom" timestamp="1652296215302">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="66" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1652258551071" />
-    <state width="1493" height="66" key="GridCell.Tab.0.center" timestamp="1652258551070">
+    <state width="1493" height="424" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1652296215302" />
+    <state width="1493" height="424" key="GridCell.Tab.0.center" timestamp="1652296215302">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="66" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1652258551070" />
-    <state width="1493" height="66" key="GridCell.Tab.0.left" timestamp="1652258551070">
+    <state width="1493" height="424" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1652296215302" />
+    <state width="1493" height="424" key="GridCell.Tab.0.left" timestamp="1652296215302">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="66" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1652258551070" />
-    <state width="1493" height="66" key="GridCell.Tab.0.right" timestamp="1652258551070">
+    <state width="1493" height="424" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1652296215302" />
+    <state width="1493" height="424" key="GridCell.Tab.0.right" timestamp="1652296215302">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="66" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1652258551070" />
+    <state width="1493" height="424" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1652296215302" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1652252790544">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1652252790544" />
-    <state x="461" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1652254447206">
+    <state x="461" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1652294980546">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="461" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1652254447206" />
-    <state x="178" y="50" key="new project wizard" timestamp="1652252805672">
+    <state x="461" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1652294980546" />
+    <state x="178" y="50" key="new project wizard" timestamp="1652295199244">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="178" y="50" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1652252805672" />
+    <state x="178" y="50" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1652295199244" />
     <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1652123499886">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
