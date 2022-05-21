@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1179e90-0f1a-4626-a027-b89332301dd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/单例模式/单例模式.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/单例模式/懒汉式单例模式/LazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/单例模式/负载均衡器/Loadbalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/单例模式/负载均衡器/client_one.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/单例模式/饿汉式单例模式/EagerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中介者模式/CRM系统/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中介者模式/CRM系统/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中介者模式/CRM系统/ComboBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中介者模式/CRM系统/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中介者模式/CRM系统/ConcreteMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中介者模式/CRM系统/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中介者模式/CRM系统/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中介者模式/CRM系统/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中介者模式/CRM系统/SubConcreteMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中介者模式/CRM系统/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中介者模式/中介者模式.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -100,14 +106,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.client_one">
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client" />
-      <module name="策略模式" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="观察者模式" />
@@ -118,6 +117,13 @@
     <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="代理模式" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="中介者模式" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.client_one" />
         <item itemvalue="Application.Client_one" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
-        <item itemvalue="Application.Client (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -229,53 +235,99 @@
       <workItem from="1652252746731" duration="296000" />
       <workItem from="1652253210819" duration="1178000" />
       <workItem from="1652254448086" duration="4071000" />
-      <workItem from="1652294977019" duration="1890000" />
+      <workItem from="1652294977019" duration="3519000" />
+      <workItem from="1652306687879" duration="1327000" />
+      <workItem from="1652308904396" duration="1201000" />
+      <workItem from="1652331102447" duration="17000" />
+      <workItem from="1652984587157" duration="6113000" />
+      <workItem from="1652993268445" duration="10000" />
     </task>
+    <task id="LOCAL-00001" summary="单例模式">
+      <created>1652296913667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652296913667</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="单例模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="单例模式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Project_Structure" timestamp="1651992898434">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="361" y="70" key="#Project_Structure/0.0.1536.816@0.0.1536.816" timestamp="1651992898434" />
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1652257438054">
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1652992322191">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1652257438054" />
-    <state width="1493" height="424" key="GridCell.Tab.0.bottom" timestamp="1652296215302">
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1652992322191" />
+    <state x="385" y="5" key="CommitChangelistDialog2" timestamp="1652296913016">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="424" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1652296215302" />
-    <state width="1493" height="424" key="GridCell.Tab.0.center" timestamp="1652296215302">
+    <state x="385" y="5" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1652296913016" />
+    <state width="1493" height="97" key="GridCell.Tab.0.bottom" timestamp="1652993252946">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="424" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1652296215302" />
-    <state width="1493" height="424" key="GridCell.Tab.0.left" timestamp="1652296215302">
+    <state width="1493" height="424" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1652306670397">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="424" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1652296215302" />
-    <state width="1493" height="424" key="GridCell.Tab.0.right" timestamp="1652296215302">
+    <state width="1493" height="424" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1536.816@0.0.1536.816" timestamp="1652306670397" />
+    <state width="1493" height="97" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1652993252946" />
+    <state width="1493" height="97" key="GridCell.Tab.0.center" timestamp="1652993252945">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="424" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1652296215302" />
+    <state width="1493" height="424" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1652306670396">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="424" key="GridCell.Tab.0.center.inPresentationMode/0.0.1536.816@0.0.1536.816" timestamp="1652306670396" />
+    <state width="1493" height="97" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1652993252945" />
+    <state width="1493" height="97" key="GridCell.Tab.0.left" timestamp="1652993252945">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="424" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1652306670396">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="424" key="GridCell.Tab.0.left.inPresentationMode/0.0.1536.816@0.0.1536.816" timestamp="1652306670396" />
+    <state width="1493" height="97" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1652993252945" />
+    <state width="1493" height="97" key="GridCell.Tab.0.right" timestamp="1652993252946">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="424" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1652306670396">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="424" key="GridCell.Tab.0.right.inPresentationMode/0.0.1536.816@0.0.1536.816" timestamp="1652306670396" />
+    <state width="1493" height="97" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1652993252946" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1652252790544">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1652252790544" />
-    <state x="461" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1652294980546">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1652296993676">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="461" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1652294980546" />
-    <state x="178" y="50" key="new project wizard" timestamp="1652295199244">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1652296993676" />
+    <state x="461" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1652993269811">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="178" y="50" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1652295199244" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1652123499886">
+    <state x="461" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1652993269811" />
+    <state x="615" y="321" key="com.intellij.ide.util.TipDialog/2560.0.1536.816/0.0.2048.1104@0.0.2048.1104" timestamp="1652331108212" />
+    <state x="564" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1652296954945">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1652123499886" />
+    <state x="564" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1652296954945" />
+    <state x="178" y="50" key="new project wizard" timestamp="1653102847233">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="178" y="50" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1653102847233" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1652987331895">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1652987331895" />
   </component>
 </project>
